@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Donate</string>
+    <string name="maybe">Tỉ lệ nhận được donate sẽ cao hơn rất nhiều khi bạn sử dụng dịch vụ donate của chúng tôi. Phần lớn cộng đồng người xem chia sẽ với chúng tôi rằng: "Họ thường thích và dễ donate nhiều hơn khi Streamer sử dụng dịch vụ của UngHoToi.com".
+
+Chỉ những thành viên của UngHoToi mới được tham gia vào những dự án mới và hấp dẫn sắp ra được mắt của chúng tôi.</string>
+    <string name="forgot">Nhập địa chỉ email của bạn vào phía đưới để đặt lại mật khẩu...</string>
+
+    <string name="url">http://192.168.1.174:8080/Donate_app/Register.php</string>
+
+
+
+</resources>
