@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_Forgot"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:layout_marginTop="38dp"
+        android:layout_gravity="center"
+        android:textSize="38dp"
+        android:text="Quên mật khẩu?"
+        android:textColor="@color/colorBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="10dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="18dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:background="@color/colorWhite"
+        android:hint="EMAIL"
+        android:layout_width="300dp"
+        android:padding="10dp"
+        android:layout_height="40dp" />
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Trở về"
+            android:background="#0066cc"
+            android:id="@+id/btnBack"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Đồng ý"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/btnOk"
+            android:background="#0066cc"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
